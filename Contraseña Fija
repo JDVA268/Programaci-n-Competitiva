@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int clave;
+
+    cin >> clave;
+
+    while (clave != 2002)
+    {
+        cout << "Senha Invalida" << endl;
+        cin >> clave;
+    }
+
+    cout << "Acesso Permitido" << endl;
+
+    return 0;
+}
